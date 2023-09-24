@@ -35,12 +35,12 @@ import{
                 <motion.div {...headContentAnimation} className='flex clex-col gap-5'>
                     <p className='max-w-md font-normal text-gray-600'>
                         Create your unique and exclusive shirt with our brand new 3D customization tool.
-                        <strong>Unleash your imagination</strong> {" "}
+                        <strong> Unleash your imagination</strong> {" "}
                         dand define your onwn style.
                     </p>
                     <CustomButton
                     type='filled'
-                    tittle='Customize It'
+                    title='Customize It'
                     handleClick={()=> state.intro=false}
                     customStyles="w-fit px-4 py-2.5 font-bold text-sm"
                     />
